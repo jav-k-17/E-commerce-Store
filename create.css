@@ -1,0 +1,159 @@
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  select,
+  input[type="text"],
+  textarea,
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M8.5 14.5l3.5 3.5 3.5-3.5 2 2-5.5 5.5-5.5-5.5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px 14px;
+    padding-right: 30px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="submit"]:active {
+    background-color: #3e8e41;
+    transform: translateY(1px);
+  }
+  
+  
+  header:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #036082;
+    padding: 20px;
+    top: 0;
+    position: sticky;
+    height: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  body{
+  margin: 0;
+  padding: 0;
+  }
+  
+  header img {
+    height: 80px;
+    width: auto;
+    object-fit: cover;
+    object-position: left;
+  }
+  
+  header h1 {
+    font-size: 200%;
+  color: white;
+  font-family: Sans-serif;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  }
+  
+  
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header li {
+    margin: 0 5px;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  header a:hover {
+    background-color: white;
+    color: #04769f;
+  }
+  
+
+  footer {
+    background-color: #036082;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .logout-btn,
+  .login-btn {
+    background-color: #036082; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
